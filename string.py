@@ -1,0 +1,20 @@
+u = 'hello world, "i am learning python"!!!!!'
+print (u)
+print(u[12])
+print(u[2])
+print (u.upper())
+print (u.lower())
+print(u.rstrip("!"))
+print (u.replace("world", "python"))
+print (u.split(","))
+blogHeading = "Python is a great language for beginners!"
+print (blogHeading.capitalize() )
+print (len(blogHeading) )
+print (blogHeading.center(60) )
+hizru = "python is a great language for beginners! harry is a hizru boi we love harry very much harry is a fucking genius and we love happry so much i know harry is a bad guy and we like to have party with harry we cant play games to harry father modile phone "
+print (hizru.count("harry") )
+print (hizru.endswith("phone") )
+print (hizru.endswith("harry", 4, 10))
+print (hizru.find("hizru") )
+print(hizru.isalnum()   )
+print (hizru.isalpha()  )
